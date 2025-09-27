@@ -1,0 +1,110 @@
+body {
+    font-family: 'Quicksand', sans-serif; /* Мягкий, но чистый шрифт */
+    margin: 0;
+    padding: 0;
+    color: #4a4a4a; /* Мягкий серый текст */
+    background-color: #f8fcfc; /* Очень светлый, свежий фон */
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+h1 {
+    color: #4db6ac; /* Мятный акцент */
+    font-weight: 700;
+}
+
+h2 {
+    color: #3876a3; /* Мягкий синий */
+    font-weight: 500;
+}
+
+/* --- СТИЛИ ГЛАВНОЙ СЕКЦИИ (HERO) --- */
+.hero {
+    padding: 100px 0; /* Больше воздуха */
+    text-align: center;
+    background-color: #e3f2fd; /* Светло-голубой фон */
+}
+
+.profile-card {
+    background: #ffffff; 
+    padding: 40px;
+    border-radius: 15px; /* Очень скругленные углы */
+    box-shadow: 0 8px 20px rgba(56, 118, 163, 0.15); /* Мягкая синяя тень */
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Круглое фото */
+    object-fit: cover;
+    border: 5px solid #81c784; /* Мягкая зеленая рамка */
+    margin-bottom: 25px;
+}
+
+.contact-info {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #f0fcfc;
+    border-radius: 8px;
+    border: 1px solid #c8e6c9;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    font-size: 1.1em;
+}
+
+.contact-info a {
+    color: #3876a3;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* --- СТИЛИ КНОПКИ --- */
+.button {
+    display: inline-block;
+    background-color: #4db6ac; /* Красивый бирюзовый/мятный */
+    color: white;
+    padding: 14px 40px;
+    text-decoration: none;
+    border-radius: 30px; /* Сильно скругленная кнопка */
+    margin-top: 30px;
+    font-weight: 700;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #26a69a;
+}
+
+/* --- СТИЛИ ПОДВАЛА --- */
+#contact {
+    text-align: center;
+    padding: 40px 0 20px 0;
+}
+
+.cta-text {
+    color: #3876a3;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+footer {
+    background-color: #3876a3; /* Основной синий фон */
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 0.9em;
+}
